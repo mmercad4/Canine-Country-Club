@@ -13,92 +13,114 @@
     </style>
   </head>
 
-  <body>
-    <nav
-      class="lg:px-16 px-6 shadow-md flex flex-wrap items-center lg:py-0 py-2"
-    >
-      <div class="flex-1 flex justify-between items-center">
-        <a href="/" class="flex text-lg font-semibold">
-          <img
-            src="assets/ccc_logo.png"
-            width="100"
-            height="100"
-            class="p-2"
-            alt="Canine Country Club Logo: An illustrated blue dog jumping up for a dark blue ball"
-          />
-          <div class="mt-3 text-customSecondary flex items-center mb-2">
-            Canine Country Club
-          </div>
-        </a>
-      </div>
-      <label for="menu-toggle" class="cursor-pointer lg:hidden block">
-        <svg
-          class="fill-current text-gray-900"
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
+  <nav class="lg:px-16 px-6 shadow-md flex flex-wrap items-center lg:py-0 py-2">
+    <div class="flex-1 flex justify-between items-center">
+      <a href="/" class="flex text-lg font-semibold">
+        <img
+          src="assets/ccc_logo.png"
+          width="100"
+          height="100"
+          class="p-2"
+          alt="Canine Country Club Logo: An illustrated blue dog jumping up for a dark blue ball"
+        />
+        <div class="mt-3 text-customSecondary flex items-center mb-2">
+          Canine Country Club
+        </div>
+      </a>
+    </div>
+    <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+      <svg
+        class="fill-current text-gray-900"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+      >
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+      </svg>
+    </label>
+    <input class="hidden" type="checkbox" id="menu-toggle" />
+    <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+      <nav>
+        <ul
+          class="text-xl text-center gap-x-6 pt-4 md:gap-x-6 lg:text-lg lg:flex lg:pt-0"
         >
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-        </svg>
-      </label>
-      <input class="hidden" type="checkbox" id="menu-toggle" />
-      <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
-        <nav>
-          <ul
-            class="text-xl text-center gap-x-6 pt-4 md:gap-x-6 lg:text-lg lg:flex lg:pt-0"
+          <li class="py-2 lg:py-0">
+            <a
+              class="text-customSecondary hover:pb-2 hover:border-b-4 hover:border-customTertiary"
+              href="#"
+            >
+              Home
+            </a>
+          </li>
+          <li class="py-2 lg:py-0">
+            <a
+              class="text-customSecondary hover:pb-2 hover:border-b-4 hover:border-customTertiary"
+              href="#"
+            >
+              About Us
+            </a>
+          </li>
+          <li class="py-2 lg:py-0">
+            <a
+              class="text-customSecondary hover:pb-2 hover:border-b-4 hover:border-customTertiary"
+              href="#"
+            >
+              Services
+            </a>
+          </li>
+          <li class="py-2 lg:py-0">
+            <a
+              class="text-customSecondary hover:pb-2 hover:border-b-4 hover:border-customTertiary"
+              href="#"
+            >
+              Testimonials
+            </a>
+          </li>
+          <li class="py-2 lg:py-0">
+            <a
+              class="text-customSecondary hover:pb-2 hover:border-b-4 hover:border-customTertiary"
+              href="#"
+            >
+              Contact Us
+            </a>
+          </li>
+          <li class="py-2 lg:py-0">
+            <a
+              class="text-customSecondary hover:pb-2 hover:border-b-4 hover:border-customTertiary"
+              href="#"
+            >
+              About
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </nav>
+  <body>
+    <div class="w-full flex items-center">
+      <section
+        class="w-full h-[90vh] bg-cover bg-center mx-auto py-56"
+        style="background-image: url('./assets/dog-playing-with-ball.avif')"
+      >
+        <div
+          class="container flex flex-col items-center justify-center text-white w-[30vw] bg-black/60 rounded-xl p-12 ml-52"
+        >
+          <h1 class="text-5xl font-medium text-center">
+            Your dog's happy place!
+          </h1>
+          <p class="text-xl p-12">
+            We make sure your dog has fun in a safe envrionment. We not only
+            prioritize safety but we make sure your dog is learning manners with
+            other dogs!
+          </p>
+          <a
+            href="#"
+            class="bg-customTertiary text-white py-4 px-12 rounded-full hover:bg-customSecondary transition ease-in-out hover:-translate-y-1 hover:scale-110"
+            >Book now</a
           >
-            <li class="py-2 lg:py-0">
-              <a
-                class="text-customSecondary hover:pb-4 hover:border-b-4 hover:border-customTertiary"
-                href="#"
-              >
-                Home
-              </a>
-            </li>
-            <li class="py-2 lg:py-0">
-              <a
-                class="text-customSecondary hover:pb-4 hover:border-b-4 hover:border-customTertiary"
-                href="#"
-              >
-                About Us
-              </a>
-            </li>
-            <li class="py-2 lg:py-0">
-              <a
-                class="text-customSecondary hover:pb-4 hover:border-b-4 hover:border-customTertiary"
-                href="#"
-              >
-                Services
-              </a>
-            </li>
-            <li class="py-2 lg:py-0">
-              <a
-                class="text-customSecondary hover:pb-4 hover:border-b-4 hover:border-customTertiary"
-                href="#"
-              >
-                Testimonials
-              </a>
-            </li>
-            <li class="py-2 lg:py-0">
-              <a
-                class="text-customSecondary hover:pb-4 hover:border-b-4 hover:border-customTertiary"
-                href="#"
-              >
-                Contact Us
-              </a>
-            </li>
-            <li class="py-2 lg:py-0">
-              <a
-                class="text-customSecondary hover:pb-4 hover:border-b-4 hover:border-customTertiary"
-                href="#"
-              >
-                About
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </nav>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
