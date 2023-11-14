@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header {
+  background: url("../dist/assets/imgs/black-white-dog-catching-ball.avif");
+}

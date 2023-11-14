@@ -17,7 +17,7 @@
     <div class="flex-1 flex justify-between items-center">
       <a href="/" class="flex text-lg font-semibold">
         <img
-          src="assets/ccc_logo.png"
+          src="assets/imgs/ccc_logo.png"
           width="100"
           height="100"
           class="p-2"
@@ -98,29 +98,138 @@
     </div>
   </nav>
   <body>
-    <div class="w-full flex items-center">
-      <section
-        class="w-full h-[90vh] bg-cover bg-center mx-auto py-56"
-        style="background-image: url('./assets/dog-playing-with-ball.avif')"
+    <!------------------------------------------------------------------------------------------ HERO ------------------------------------------------------------------------------------------------------------>
+    <header
+      id="up"
+      class="bg-center bg-fixed bg-no-repeat bg-cover h-screen relative"
+    >
+      <!-- Overlay Background + Center Control -->
+      <div
+        class="h-screen bg-opacity-50 bg-black flex items-center justify-center"
+        style="background: rgba(0, 0, 0, 0.5)"
       >
-        <div
-          class="container flex flex-col items-center justify-center text-white w-[30vw] bg-black/60 rounded-xl p-12 ml-52"
-        >
-          <h1 class="text-5xl font-medium text-center">
-            Your dog's happy place!
-          </h1>
-          <p class="text-xl p-12">
-            We make sure your dog has fun in a safe envrionment. We not only
-            prioritize safety but we make sure your dog is learning manners with
-            other dogs!
-          </p>
-          <a
-            href="#"
-            class="bg-customTertiary text-white py-4 px-12 rounded-full hover:bg-customSecondary transition ease-in-out hover:-translate-y-1 hover:scale-110"
-            >Book now</a
+        <div class="mx-2 text-center">
+          <h1
+            class="text-gray-100 font-extrabold text-4xl xs:text-5xl md:text-6xl"
           >
+            Canine Country Club your doggy daycare in China Grove
+          </h1>
+          <div class="inline-flex">
+            <button
+              class="p-2 my-5 mx-2 bg-indigo-700 hover:bg-indigo-800 font-bold text-white rounded border-2 border-transparent hover:border-indigo-800 shadow-md transition duration-500 md:text-xl"
+            >
+              Hire US!
+            </button>
+            <a href="#about"
+              ><button
+                class="p-2 my-5 mx-2 bg-transparent border-2 bg-indigo-200 bg-opacity-75 hover:bg-opacity-100 border-indigo-700 rounded hover:border-indigo-800 font-bold text-indigo-800 shadow-md transition duration-500 md:text-lg"
+              >
+                Learn More
+              </button></a
+            >
+          </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </header>
+
+    <!------------------------------------------------------------------------------------------ SERVICES ------------------------------------------------------------------------------------------------------------>
+
+    <!-- component -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.tailgrids.com/tailgrids-fallback.css"
+    />
+    <section class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]">
+      <div class="container">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full px-4">
+            <div class="text-center mx-auto mb-12 lg:mb-20 max-w-[510px]">
+              <span
+                class="font-semibold text-lg text-customTertiary mb-2 block"
+              >
+                Our Services
+              </span>
+              <h2
+                class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4"
+              >
+                What We Offer
+              </h2>
+              <p class="text-base text-body-color">
+                Canine Country Club has services to fit your every need. We
+                guarantee all our services are the best quality in the industry!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+            <div
+              class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg mb-8"
+            >
+              <div
+                class="w-[70px] h-[70px] flex items-center justify-center bg-customTertiary rounded-2xl mb-8"
+              >
+                <img
+                  class="fill-white"
+                  height="50"
+                  width="50"
+                  src="./assets/icons/dog-house.png"
+                  alt="a dog house with a paw in the middle"
+                />
+              </div>
+              <h4 class="font-semibold text-xl text-dark mb-3">Boarding</h4>
+              <p class="text-body-color">
+                We dejoy working with discerning clients, people for whom
+                qualuty, service, integrity & aesthetics.
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+            <div
+              class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg mb-8"
+            >
+              <div
+                class="w-[70px] h-[70px] flex items-center justify-center bg-customTertiary rounded-2xl mb-8"
+              >
+                <img
+                  class="fill-white"
+                  height="40"
+                  width="40"
+                  src="./assets/icons/dog-human-playing.png"
+                  alt="A dog and a human playing fetch"
+                />
+              </div>
+              <h4 class="font-semibold text-xl text-dark mb-3">Daycare</h4>
+              <p class="text-body-color">
+                We dejoy working with discerning clients, people for whom
+                qualuty, service, integrity & aesthetics.
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+            <div
+              class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg mb-8"
+            >
+              <div
+                class="w-[70px] h-[70px] flex items-center justify-center bg-customTertiary rounded-2xl mb-8"
+              >
+                <img
+                  class="fill-white"
+                  height="40"
+                  width="40"
+                  src="./assets/icons/dog-grooming.png"
+                  alt="A dog head with bubbles at the top of their head"
+                />
+              </div>
+              <h4 class="font-semibold text-xl text-dark mb-3">Grooming</h4>
+              <p class="text-body-color">
+                We dejoy working with discerning clients, people for whom
+                qualuty, service, integrity & aesthetics.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
