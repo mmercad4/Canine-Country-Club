@@ -580,6 +580,10 @@ video {
   left: 0px;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
 .-mx-4 {
   margin-left: -1rem;
   margin-right: -1rem;
@@ -662,6 +666,26 @@ video {
 
 .mt-52 {
   margin-top: 13rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-80 {
+  margin-bottom: 20rem;
+}
+
+.mb-60 {
+  margin-bottom: 15rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .block {
