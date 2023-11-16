@@ -11,6 +11,11 @@
         display: block;
       }
     </style>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"
+    ></script>
   </head>
 
   <nav
@@ -56,14 +61,68 @@
               Home
             </a>
           </li>
-          <li class="py-2 lg:py-0">
-            <a
-              class="text-customSecondary hover:pb-2 hover:border-b-4 hover:border-customTertiary"
-              href="./services.html"
+          <li>
+            <button
+              id="dropdownNavbarLink"
+              data-dropdown-toggle="dropdownNavbar"
+              class="flex items-center justify-center w-full rounded bg-white"
             >
-              Services
-            </a>
+              <a
+                class="text-center text-customSecondary hover:border-customTertiary"
+                href="#"
+              >
+                Services
+              </a>
+              <svg
+                class="w-2.5 h-2.5 ms-2.5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="#0B1938"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 4 4 4-4"
+                />
+              </svg>
+            </button>
+            <!-- Dropdown menu -->
+            <div
+              id="dropdownNavbar"
+              class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 text-customSecondary"
+            >
+              <ul
+                class="py-2 text-sm text-customS"
+                aria-labelledby="dropdownLargeButton"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:bg-customPrimary hover:text-white"
+                    >Dashboard</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:bg-customPrimary hover:text-white"
+                    >Settings</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:bg-customPrimary hover:text-white"
+                    >Earnings</a
+                  >
+                </li>
+              </ul>
+            </div>
           </li>
+
           <li class="py-2 lg:py-0">
             <a
               class="text-customSecondary hover:pb-2 hover:border-b-4 hover:border-customTertiary"
