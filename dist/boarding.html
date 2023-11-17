@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <title>Canine Country Club</title>
+    <style>
+      #menu-toggle:checked + #menu {
+        display: block;
+      }
+    </style>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"
+    ></script>
+  </head>
+
+  <nav
+    class="lg:px-16 px-6 shadow-md flex flex-wrap items-center lg:py-0 py-2"
+    id="nav"
+  >
+    <div class="flex-1 flex justify-between items-center">
+      <a href="#nav" class="flex text-lg font-semibold">
+        <img
+          src="assets/imgs/ccc_logo.png"
+          width="100"
+          height="100"
+          class="p-2"
+          alt="Canine Country Club Logo: An illustrated blue dog jumping up for a dark blue ball"
+        />
+        <div class="mt-3 text-customSecondary flex items-center mb-2">
+          Canine Country Club
+        </div>
+      </a>
+    </div>
+    <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+      <svg
+        class="fill-current text-gray-900"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+      >
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+      </svg>
+    </label>
+    <input class="hidden" type="checkbox" id="menu-toggle" />
+    <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+      <nav>
+        <ul
+          class="text-xl text-center gap-x-6 pt-4 md:gap-x-6 lg:text-lg lg:flex lg:pt-0"
+        >
+          <li class="py-2 lg:py-0">
+            <a
+              class="text-customSecondary hover:pb-2 hover:border-b-4 hover:border-customTertiary"
+              href="./index.html"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <button
+              id="dropdownNavbarLink"
+              data-dropdown-toggle="dropdownNavbar"
+              class="flex items-center justify-center w-full rounded bg-white"
+            >
+              <a
+                class="text-center text-customSecondary hover:border-customTertiary"
+                href="#"
+              >
+                Services
+              </a>
+              <svg
+                class="w-2.5 h-2.5 ms-2.5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="#0B1938"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 4 4 4-4"
+                />
+              </svg>
+            </button>
+            <!-- Dropdown menu -->
+            <div
+              id="dropdownNavbar"
+              class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 text-customSecondary"
+            >
+              <ul
+                class="py-2 text-sm text-customS"
+                aria-labelledby="dropdownLargeButton"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:bg-customPrimary hover:text-white"
+                    >Boarding</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:bg-customPrimary hover:text-white"
+                    >Daycare</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 hover:bg-customPrimary hover:text-white"
+                    >Grooming</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="py-2 lg:py-0">
+            <a
+              class="text-customSecondary hover:pb-2 hover:border-b-4 hover:border-customTertiary"
+              href="#"
+            >
+              About Us
+            </a>
+          </li>
+          <li class="py-2 lg:py-0">
+            <a
+              class="text-customSecondary hover:pb-2 hover:border-b-4 hover:border-customTertiary"
+              href="#"
+            >
+              Testimonials
+            </a>
+          </li>
+          <li class="py-2 lg:py-0">
+            <a
+              class="text-customSecondary hover:pb-2 hover:border-b-4 hover:border-customTertiary"
+              href="#"
+            >
+              Contact Us
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </nav>
+  <body>
+    <!-- component -->
+    <div
+      class="bg-white relative flex items-center n justify-center overflow-hidden"
+    >
+      <div
+        class="relative mx-auto h-full px-4 pb-20 md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8"
+      >
+        <div
+          class="flex flex-col items-center justify-between lg:flex-row py-16"
+        >
+          <div class="relative">
+            <div class="lg:max-w-xl lg:pr-5 relative z-40">
+              <h2
+                class="mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-g1 sm:text-7xl sm:leading-snug"
+              >
+                Elevate Your Pet's Stay with
+                <span
+                  class="my-1 inline-block border-b-8 border-customTertiary text-customTertiary bg-white px-4 font-bold text-g4 animate__animated animate__flash"
+                  >exceptional</span
+                >
+                Boarding
+              </h2>
+              <p class="text-base text-gray-700">
+                Where Comfort Meets Canine Care: Discover Peace of Mind, One Wag
+                at a Time.
+              </p>
+              <div
+                class="mt-10 flex flex-col items-center justify-center md:flex-row"
+              >
+                <a
+                  href="/"
+                  class="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-customTertiary px-6 font-medium tracking-wide text-white shadow-md transition hover:shadow-blue-950 focus:outline-none md:mr-4 md:mb-0 md:w-auto"
+                >
+                  Book Today</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="relative hidden lg:ml-32 lg:block lg:w-1/2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="my-6 mx-auto h-10 w-10 animate-bounce rounded-full bg-white p-2 lg:hidden"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M16 17l-4 4m0 0l-4-4m4 4V3"
+              ></path>
+            </svg>
+            <div
+              class="abg-orange-400 mx-auto w-fit overflow-hidden rounded-[6rem] rounded-br-none rounded-tl-none"
+            >
+              <img src="./assets/imgs/black-white-dog-catching-ball.avif" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hidden text-9xl varien absolute top-6 left-1/4 text-g/10 z-40"
+      >
+        Boarding
+      </div>
+    </div>
+  </body>
+</html>
