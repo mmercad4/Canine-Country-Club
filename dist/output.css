@@ -746,6 +746,10 @@ video {
   margin-bottom: 1.75rem;
 }
 
+.mb-36 {
+  margin-bottom: 9rem;
+}
+
 .block {
   display: block;
 }
@@ -1677,6 +1681,10 @@ header {
     max-width: 36rem;
   }
 
+  .sm\:gap-20 {
+    gap: 5rem;
+  }
+
   .sm\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
@@ -1783,6 +1791,10 @@ header {
 
   .md\:flex-col {
     flex-direction: column;
+  }
+
+  .md\:gap-20 {
+    gap: 5rem;
   }
 
   .md\:gap-x-6 {
