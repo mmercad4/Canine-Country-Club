@@ -811,6 +811,10 @@ video {
   margin-top: auto;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1024,8 +1028,16 @@ video {
   flex-wrap: wrap;
 }
 
+.content-center {
+  align-content: center;
+}
+
 .items-start {
   align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -1735,12 +1747,20 @@ header {
     margin-top: 0px;
   }
 
+  .sm\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .sm\:flex {
     display: flex;
   }
 
   .sm\:max-w-xl {
     max-width: 36rem;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
   }
 
   .sm\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -1946,6 +1966,10 @@ header {
 
   .lg\:ml-32 {
     margin-left: 8rem;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
   }
 
   .lg\:block {
