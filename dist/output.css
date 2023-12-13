@@ -1009,6 +1009,30 @@ video {
   width: 55vw;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
+.w-\[0vw\] {
+  width: 0vw;
+}
+
+.w-\[80vw\] {
+  width: 80vw;
+}
+
+.w-\[65vw\] {
+  width: 65vw;
+}
+
+.w-\[66vw\] {
+  width: 66vw;
+}
+
+.w-\[67vw\] {
+  width: 67vw;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -1119,6 +1143,10 @@ video {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-10 {
